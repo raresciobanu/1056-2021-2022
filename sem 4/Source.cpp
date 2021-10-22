@@ -258,7 +258,7 @@ public:
 	}
 
 	//op. +  (ex: cout<<s4+s3;)
-	Student& operator+(Student& student) {
+	Student operator+(Student& student) {
 		Student aux(*this);
 
 		aux.prenume = aux.prenume + "-" + student.prenume;
