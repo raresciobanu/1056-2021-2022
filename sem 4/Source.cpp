@@ -131,10 +131,13 @@ public:
 		switch (gen) {
 		case FEMEIE:
 			return "femeie";
+			break;
 		case BARBAT:
 			return "barbat";
+			break;
 		case NECUNOSCUT:
 			return "necunoscut";
+			break;
 		}
 	}
 
