@@ -228,7 +228,7 @@ public:
 
 	friend double calculeazaMedieNoteFctPrietena(Student s);
 	friend ostream& operator<<(ostream& out, const Student& s);
-	friend istream& operator<<(istream& in, Student& s);
+	friend istream& operator>>(istream& in, Student& s);
 
 	//operatori
 	//op. unari
@@ -292,7 +292,7 @@ ostream& operator<<(ostream& out, const Student& s) {
 	return out;
 }
 
-istream& operator<<(istream& in, Student& s) {
+istream& operator>>(istream& in, Student& s) {
 	char aux[100];
 	cout << "Nume: ";  in >> aux;
 
