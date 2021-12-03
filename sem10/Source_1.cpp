@@ -154,7 +154,7 @@ public:
 
 	//implementare metoda din interfata
 	string catTrebuieSaMananceZilnic() {
-		return "PisicaPersana trebuie sa manance zilnic 2kg carne";
+		return "PisicaPersana trebuie sa manance zilnic 0.3kg carne";
 	}
 };
 
